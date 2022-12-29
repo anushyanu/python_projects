@@ -146,7 +146,7 @@ class CoreGen(object):
             os.makedirs(self.fullCorePath)
 
         # Create data directory
-        self.dataCorePath = selfdss2ss2z.fullCorePath + '/cover_letter'
+        self.dataCorePath = self.fullCorePath + '/cover_letter'
         if not os.path.exists(self.dataCorePath): 
             os.makedirs(self.dataCorePath)
 
